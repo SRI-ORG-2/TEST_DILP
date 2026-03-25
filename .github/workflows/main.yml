@@ -21,10 +21,10 @@ jobs:
         env:
           TRIVY_USERNAME: ${{ secrets.TRIVY_USERNAME }}
           TRIVY_PASSWORD: ${{ secrets.TRIVY_PASSWORD }}
-          AQUA_KEY: cn29i6q4wBBaU9inT94LNY
-          AQUA_SECRET: qcqraCii5QHtk9YeNRQNX1S4qriv1b6sm4O
+          AQUA_KEY: C6bOqlj90K5ecXNUvOfaC5
+          AQUA_SECRET: m3LnoH0HxgXwRCrFMAUSOahqoHKdlx4ua9W
           GITHUB_TOKEN: ${{ github.token }}
-          AQUA_URL: https://api.supply-chain.cloud.aquasec.com
-          CSPM_URL: https://api.cloudsploit.com
+          AQUA_URL: https://api.eu-1.supply-chain.cloud.aquasec.com
+          CSPM_URL: https://eu-1.api.cloudsploit.com
           TRIVY_RUN_AS_PLUGIN: 'aqua'
           # For http/https proxy configuration add env vars: HTTP_PROXY/HTTPS_PROXY, CA-CRET (path to CA certificate)
